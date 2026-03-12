@@ -1,20 +1,20 @@
 class Tablecopy < Formula
   desc "Convert Unicode box-drawing tables to Markdown / Image format"
   homepage "https://github.com/wataame/tablecopy"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/wataame/tablecopy/releases/download/v0.1.0/tablecopy-aarch64-apple-darwin.tar.xz"
-      sha256 "a0fd8bff0ed48923ca78b42c35d5183adf48919b3d77cb4d2ca45959b7b754a4"
+      url "https://github.com/wataame/tablecopy/releases/download/v0.2.0/tablecopy-aarch64-apple-darwin.tar.xz"
+      sha256 "3144b5d381a8fc3454ab6563146f2fdd5d26ce87eee3e685a6c2f7b49b789bd2"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/wataame/tablecopy/releases/download/v0.1.0/tablecopy-x86_64-apple-darwin.tar.xz"
-      sha256 "c347a6a816e66264ee70f1124ebbd7ba6dd659467d157a81f743b8b4a352710c"
+      url "https://github.com/wataame/tablecopy/releases/download/v0.2.0/tablecopy-x86_64-apple-darwin.tar.xz"
+      sha256 "3f002d35efad1924108510c8c06859a4316cce927a7b70967fc2f433a7cc803b"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
-      url "https://github.com/wataame/tablecopy/releases/download/v0.1.0/tablecopy-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "20ed2676d2e1a8f92913d178fc746fa15a3990e77f715355cb106a7705aac94a"
+      url "https://github.com/wataame/tablecopy/releases/download/v0.2.0/tablecopy-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "9c4587280e19acc7d3875f1d74039a5c687dd416cf8b8697805bcfee8cb3235c"
   end
   license "MIT"
 
